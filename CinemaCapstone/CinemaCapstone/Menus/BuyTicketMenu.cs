@@ -15,12 +15,12 @@
         {
         }
 
-        /// <summary>
+        
         /// Creates the menu by adding menu items.
-        /// </summary>
+        
         public void CreateMenu()
         {
-            // Create a loop that goes through all the movies and then adds them to the menu below
+           
             var menuOptions = new List<(string Label, Action action)>
             {
                 ("boom", selecyMovie)
@@ -29,16 +29,16 @@
             ConsoleHelper.RunMenu("Welcome", menuOptions);
         }
 
-        /// <summary>
+        
         /// Gets the text to be displayed for the console menu.
-        /// </summary>
+       
         /// <returns>A string representing the menu text and the current total sum.</returns>
         public string MenuText()
         {
             return "";
         }
 
-        // Change this so it has a movie as a parameter so we can select what movie the customer chooses
+        
         private void selecyMovie()
         {
             

@@ -1,13 +1,13 @@
 ﻿namespace Capstone.Menus;
 
-/// <summary>
+
 ///  This class provides helper methods for displaying menus and handling user input in the console.
-/// </summary>
+
 public static class ConsoleHelper
 {
-    /// <summary>
+    
     ///  This method displays a menu with a title and a list of options, allowing the user to select an option by entering a number.
-    /// </summary>
+   
     /// <param name="title"></param>
     /// <param name="options"></param>
     public static void RunMenu(string title, List<(string Label, Action Action)> options)
